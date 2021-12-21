@@ -1,3 +1,4 @@
-src/.ipynb_checkpoints
-.virtualdocuments/src/
-pdf/
+.virtual_documents/src/open_bradesco_pdf.ipynb
+.virtual_documents/src/Untitled.ipynb
+pdfs/extratoCartao.pdf
+src/.ipynb_checkpoints/open_bradesco_pdf-checkpoint.ipynb
