@@ -1,0 +1,11 @@
+version: "3.7"
+
+services:
+  controlecartao:
+    build: .
+    command: bash -c "jupyter lab --notebook-dir=/work --ip 0.0.0.0 --no-browser --allow-root"
+    volumes:
+      - .:/work
+    ports:
+      - 8888:8888
+      

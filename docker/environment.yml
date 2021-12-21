@@ -1,0 +1,5 @@
+name: base
+dependencies:
+# General
+- python=3.9.5
+- pip=21.2.4
