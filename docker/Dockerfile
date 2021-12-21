@@ -13,8 +13,9 @@ RUN apt-get update && apt-get install -y \
     bzip2 \
     ffmpeg \
     libsm6 \
-    libxext6 \
+    libxext6 \    
  && rm -rf /var/lib/apt/lists/*
+ #ghostscript \
 
 # Create a working directory
 RUN mkdir /app

@@ -1,5 +1,11 @@
 name: base
+
+channels:
+- conda-forge
+- defaults
+
 dependencies:
 # General
 - python=3.9.5
 - pip=21.2.4
+- conda-forge::pdftotext
